@@ -1,8 +1,8 @@
 # Pull base image
-From tomcat:8-jr8
+From tomcat:latest
 
 # Maintainer
-MAINTAINER "absngh1992@gmail.com"
+MAINTAINER snghab
 
 # copy war file on to container
 COPY ./WebApp.war /usr/local/tomcat/webapps
