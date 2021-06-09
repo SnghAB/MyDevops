@@ -1,5 +1,5 @@
 # Pull base image
-From tomcat:latest
+FROM tomcat:latest
 
 # Maintainer
 MAINTAINER abhinav singh <absngh1992@gmail.com>
